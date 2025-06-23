@@ -15,4 +15,4 @@ RUN uv sync --locked
 
 COPY app.py ./
 
-CMD ["uv", "run","streamlit", "run", "app.py"]
+CMD ["uv", "run", "streamlit", "run", "app.py"]
